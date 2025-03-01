@@ -1,0 +1,56 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 15px 20px;  /* Adjust padding to avoid overflow */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box; /* Ensures padding doesn’t add extra width */
+    z-index: 1000;
+    height: 12vh;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap; /* Prevents text from breaking into a new line */
+}
+
+.navdiv {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-right: 10px; /* Ensures space from the right edge */
+    overflow: hidden;
+    flex-wrap: nowrap; /* Prevents items from wrapping */
+    color:aliceblue;
+
+}
+
+
+
+/* Prevent content from hiding under the navbar */
+body {
+    padding-top: 70px;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    margin:0 26px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+a:hover{
+    transition: color 0.3s ease-in-out;
+    color: rgb(247, 193, 127);
+    font-size: 20px;
+}
