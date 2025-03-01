@@ -4,9 +4,11 @@
     padding: 0;
     background-color: #f4f4f4; /* Light gray background */
     color: #333; /* Dark text for readability */
-    height: 200px;
+    height:fit-content;
     text-align: center;
     padding-top:10px;
+    padding-bottom: 20px;
+    border-radius: 12px;
   }
   
   
